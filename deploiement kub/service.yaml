@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ubuntu #nom du service unique (trio)
+  name: appubuntu #nom du service unique (trio)
 spec:
   selector:
-    app: ubuntu # c'est bien le label mis au pod qui est recherché local à un namespace
+    app: appubuntu # c'est bien le label mis au pod qui est recherché local à un namespace
   ports:
     - protocol: TCP
       port: 80

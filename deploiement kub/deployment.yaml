@@ -16,5 +16,6 @@ spec:
     spec:
       containers:
         - name: ubuntu
-          image: cguillo/ubuntu
+          image: dorowu/ubuntu-desktop-lxde-vnc
+         
     
